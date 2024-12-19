@@ -1,0 +1,102 @@
+
+#header{
+    background-color:rgba(201, 231, 141, 0.862);
+    text-align: center;
+    margin: 0;
+}
+
+body{
+    background-color:silver;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    margin-top: 20px;
+}
+
+#cal{
+    border-radius: 15px;
+    background-color:rgb(96, 95, 101);
+    overflow: hidden; 
+    width: 500px;
+}
+
+
+#display{
+    width: 100%;
+    height: 50%;
+    padding: 30px;
+    font-size: 2rem;
+    text-align: left;
+}
+
+#buttons{
+    display: grid;
+    gap: 9px;
+    padding: 20px;
+    row-gap: 12px;
+}
+
+button{
+    width: 100px;
+    height: 70px;
+    border-radius: 60px;
+    background-color:rgb(237, 216, 178);
+    border: none;
+    font-size: 2rem;
+    font-weight:400;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.btn_row {
+    display: grid;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.btn {
+    display: flex;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+
+button:hover{
+    background-color: rgb(132, 96, 198);
+}
+
+
+button:active{
+    background-color:aquamarine;
+}
+
+
+.opb{
+    background-color:rgb(129, 165, 163);
+}
+
+.opb:hover{
+    background-color:lightcoral;
+}
+
+
+.opb:active{
+    background-color: black;
+}
+
+.opbs {
+    background-color:rgb(225, 147, 173);
+    width: 450px;
+}
+
+.opbss {
+    background-color: rgb(209, 178, 223);
+    height: 150px;
+}

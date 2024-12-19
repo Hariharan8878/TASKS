@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calc.css">
+</head>
+
+<body>
+    <div id="cal">
+        <h1 id="header">Calculator</h1>
+        <input id="display" readonly>
+        <div id="buttons">
+            <div class="btn">
+                <div class="row">
+                    <button onclick="getToDisplay('*')" class="opb">*</button>
+                    <button onclick="getToDisplay('/')" class="opb">/</button>
+                    <button onclick="getToDisplay('%')" class="opb">%</button>
+
+                    <button onclick="getToDisplay('7')">7</button>
+                    <button onclick="getToDisplay('8')">8</button>
+                    <button onclick="getToDisplay('9')">9</button>
+    
+                    <button onclick="getToDisplay('4')">4</button>
+                    <button onclick="getToDisplay('5')">5</button>
+                    <button onclick="getToDisplay('6')">6</button>
+    
+                    <button onclick="getToDisplay('1')">1</button>
+                    <button onclick="getToDisplay('2')">2</button>
+                    <button onclick="getToDisplay('3')">3</button>
+    
+                    <button onclick="getToDisplay('.')" class="opb">.</button>
+                    <button onclick="getToDisplay('0')">0</button>
+                    <button onclick="clearDis()" class="opb">C</button>
+                </div>
+                <div class="btn_row">
+                    <button onclick="deleteLast()" class="opb">Del</button>
+                    <button onclick="getToDisplay('+')" class="opbss">+</button>
+                    <button onclick="getToDisplay('-')" class="opbss">-</button>
+                </div>
+            </div>                
+            <button onclick="calc()" class="opbs">=</button>
+        </div>
+    </div>
+    <script src ="calc.js"></script>
+</body>
+
+</html>
